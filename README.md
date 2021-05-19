@@ -37,6 +37,6 @@ npm start
  ```sh
 npm start
 ```
- - Em seguida clique em entrar e incie suas pesquisas.
+ - Em seguida clique em entrar coloque login e senha do spotfy em seguida  inicie suas pesquisas.
 
 
