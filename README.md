@@ -2,6 +2,7 @@
 ## Não sabe o que escutar ? agora vai saber.
 
 ## Requisitos
+- NPM
 - Node js
 - Conta no Spotify
 ## Versões
