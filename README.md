@@ -7,6 +7,7 @@
 ## Versões
 - React 17.0.2
 - Node 14.15.1
+- NPM 6.14.8
 ## Linguagens Utilizadas
 
 - Html
