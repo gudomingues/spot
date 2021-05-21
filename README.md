@@ -4,6 +4,9 @@
 ## Requisitos
 - Node js
 - Conta no Spotify
+## Versões
+- React 17.0.2
+- Node 14.15.1
 ## Linguagens Utilizadas
 
 - Html
