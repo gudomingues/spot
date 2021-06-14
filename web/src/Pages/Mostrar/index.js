@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import './index.css';
 
-function Show(props) {
+export default function Show(props) {
     const URL = "http://localhost:8888/album/" + props.id + "/tracks";
     console.log(URL + props.id);
 
@@ -57,4 +57,4 @@ function Show(props) {
         </div>
     );
 }
-export default Show;
+

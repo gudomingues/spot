@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { Component, useState } from "react";
 import axios from "axios";
 import Show from '../Mostrar';
 import "./index.css";
 import logo from '../images/LOGO.png';
 import Galery from '../ImagesSearch'
 
-function Search() {
+
+export default function Search() {
     const URL = "http://localhost:8888/album/";
 
     const [resultadoPesquisa, setResultadoPesquisa] = useState([]);
@@ -119,6 +120,5 @@ function Search() {
             </div>
         </div>
     );
-}
 
-export default Search;
+}

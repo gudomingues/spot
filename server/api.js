@@ -25,7 +25,6 @@ app.get('/album/:id', (req, res, next) => {
     spotifyApi.searchTracks(req.params.id, { limit: 10, offset: 20 })
         .then(function (data) {
             res.status(200).send(data.body);
-            /* console.log('Album information', data.body.album);*/
         }, function (err) {
             res.status(404).send(err);
         });
